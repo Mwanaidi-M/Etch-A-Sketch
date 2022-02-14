@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>M-EtchPad</title>
+
+    <link rel="stylesheet" href="./style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alice&family=Sacramento&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <header>
+        <h1 class="heading"> M-Etch-A-Sketch-Pad.</h1>
+    </header>
+    <main>
+        <section class="m-options">
+            <!-- <button id="customGrid">Set Custom Grid</button> -->
+            <div>
+                <label for="customGridSize">Grid Size:</label>
+                <input type="range" name="customGridSize" id="customGridSize" min="4" max="100" value="16">
+            </div>
+            <p id="size"></p>
+            <button id="blackPen">Black</button>
+            <button id="rainbowPen">Random Color</button>
+            <div>
+                <label for="customColor">Custom Color:</label>
+                <input type="color" name="customColor" id="customColor">
+            </div>
+            <button id="eraseGrid">Erase</button>
+            <button id="resetGrid">Reset Canvas</button>
+        </section>
+        <section class="container">
+
+        </section>
+    </main>
+    <footer> &copy; 2022 M~Idi </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
